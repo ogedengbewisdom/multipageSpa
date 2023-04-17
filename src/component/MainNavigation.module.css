@@ -8,19 +8,25 @@
     
 }
 
-nav ul{
+ ul{
     display: flex;
     text-decoration: none;
 }
 
-nav ul li {
+ul li {
     margin: 0 1rem;
  
 }
 
-nav ul li a{
+ul li a {
     text-decoration: none;
     font-size: medium;
     color: burlywood;
     letter-spacing: 0.1rem;
+}
+
+ul li a:hover,
+ul li a.active {
+    text-decoration: underline;
+    color: #fab833;
 }
