@@ -6,7 +6,7 @@ const MainNavigation = () => {
     return (
         <header className={classes.content}>
             <nav>
-                <ul>
+                <ul className={classes.list}>
                     <li><NavLink className={({isActive}) => isActive ? classes.active : undefined} to="/" end>Home</NavLink></li>
                     <li><NavLink className={({isActive}) => isActive ? classes.active : undefined} to="/products">Products</NavLink></li>
                 </ul>
