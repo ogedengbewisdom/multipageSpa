@@ -8,25 +8,25 @@
     
 }
 
- ul{
+ .list{
     display: flex;
     text-decoration: none;
 }
 
-ul li {
+.list li {
     margin: 0 1rem;
  
 }
 
-ul li a {
+.list li a {
     text-decoration: none;
     font-size: medium;
     color: burlywood;
     letter-spacing: 0.1rem;
 }
 
-ul li a:hover,
-ul li a.active {
+.list li a:hover,
+.list li a.active {
     text-decoration: underline;
     color: #fab833;
 }
